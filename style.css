@@ -369,6 +369,8 @@ figure{
         max-width: 400px;
         font-size: 32px;
         letter-spacing: -0.3px;
+        text-align: center;
+        margin: 0 auto;
     }
 
 .flex{
@@ -413,7 +415,8 @@ figure{
 footer{
     display: flex;
     gap: 20px;
-    max-width: 400px;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .about{
