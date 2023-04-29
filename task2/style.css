@@ -1,0 +1,87 @@
+.container{
+    
+    
+    padding: 0;
+    box-sizing: border-box;
+    
+    box-shadow: 0 0 10px 0;
+    max-width: 700px;
+    margin: 100px auto;
+    
+    }
+.h1{
+    font-size: 19px;
+    font-family: sans-serif;
+    background-color: darkblue;
+    color: #fff;
+font-style: bold;
+padding:8px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.form{
+    width: 92%;
+    margin-left: 10px;
+    margin-right: 30px;
+    
+}
+
+
+label{
+    text-transform: uppercase;
+}
+
+.fname{
+font-size: 18px;
+margin-bottom: 40px;
+font-style: bold;
+}
+
+
+
+.lname{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: bold;
+}
+
+.ge{
+    font-size: 18px;
+    font-style: bold;    
+
+}
+
+.cate{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.emails{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: bold;
+}
+
+.pword{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: bold;
+}
+
+.btn{
+    font-size: 15px;
+    background-color: darkblue;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px;
+    text-transform: uppercase;
+    border: none;
+    width: 100%
+}
+
+.btn:hover{
+    background-color: blue ;
+    color:#fff;
+}
+

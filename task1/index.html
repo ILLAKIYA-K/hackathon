@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    function validateform(){
+        let x = document.forms["myForm"]
+        ["firstname"].value;
+        if (x == "") {
+            alert("firstname must be filled out");
+            return false;
+        }
+
+        let y = document.forms["myForm"]
+        ["lastname"].value;
+        if (y == "") {
+            alert("lastname must be filled out");
+            return false;
+        }
+       
+        let e = document.forms["myForm"]
+        ["email"].value;
+        if (e == "") {
+            alert("email must be filled out");
+            return false;
+        }
+
+        let o = document.forms["myForm"]
+        ["password"].value;
+        if (o == "") {
+            alert("password must be filled out");
+            return false;
+        }
+
+        let w = document.forms["myForm"]
+        ["regno"].value;
+        if (w == "") {
+            alert("regno must be filled out");
+            return false;
+        }
+
+       
+        
+        let f = document.forms["myForm"]
+        ["DOB"].value;
+        if (f == "") {
+            alert("DOB must be filled out");
+            return false;
+        }
+        let g = document.forms["myForm"]
+        ["Age"].value;
+        if (g == "") {
+            alert("Age must be filled out");
+            return false;
+        }
+        let h = document.forms["myForm"]
+        ["Address"].value;
+        if (h == "") {
+            alert("Address must be filled out");
+            return false;
+        }
+
+        let n = document.forms["myForm"]
+        ["comments"].value;
+        if (n == "") {
+            alert("comments must be filled  out");
+            return false;
+        }
+    }        
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="container">
+    <div class="h1">
+    <h1>Registration form</h1>
+</div>
+<form name="myForm" action="connect.php" onsubmit="return validateform()" method="post">
+<div class="fname">
+    <label for="firstname">firstname</label>
+  <div> <input type="text" class="form" id="firstname" name="firstname"/>
+</div>
+</div>
+<div class="fname">
+    <label for="lastname">lastname</label>
+<div>
+    <input ype="text" class="form" id="lastname" name="lastname"/>
+</div>
+</div> 
+<div class="fname">
+    <label for="email">email</label>
+    <div>
+    <input type="text" class="form" id="email" name="email"/>
+</div>
+</div>
+
+ <div class="fname"> 
+    <label for="password">password</label>
+    <div>
+    <input type="password" class="form" id="password" name="password"/>
+</div>
+</div> 
+
+<div class="fname">
+    <label for="regno">Rating</label>
+    <div>
+    <input type="text" class="form" id="regno" name="regno" />
+</div>
+    
+</div>
+<div class="fname">
+    <label for="DOB">DOB</label>
+    <div>
+    <input type="date" class="form" id="DOB" name="DOB" />
+</div>
+    
+</div>
+
+<div class="fname">
+    <label for="Age">Age</label>
+    <div>
+    <input type="number" class="form" id="Age" name="Age" />
+</div>
+    
+</div>
+
+<div class="fname">
+    <label for="Address">Address</label>
+    <div>
+    <input type="textarea" class="form" id="Address" name="Address" />
+</div>
+    
+</div>  
+
+<div class="fname">
+    <label for="textarea">number</label>
+    <div>
+        <input type="comments" class="form" id="comments" name="comments"/>
+    </div>
+    
+    
+</div>
+<input type="submit" class="btn btn-big"/>
+</form>
+
+</div>
+</body>
+</html>

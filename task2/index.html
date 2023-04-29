@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="iks.py">
+</head>
+<script>
+    function validateform(){
+        let x = document.forms["myForm"]
+        ["firstname"].value;
+        if (x == "") {
+            alert("firstname must be filled out");
+            return false;
+        }
+
+        let h = document.forms["myForm"]
+        ["Address"].value;
+        if (h == "") {
+            alert("Address must be filled out");
+            return false;
+        }
+
+    }
+        </script>
+<body>
+</head>
+<body>
+    <div class="container">
+    <div class="h1">
+    <h1>seeking help</h1>
+</div>
+<form name="myForm" action="connect.php" onsubmit="return validateform()" method="post">
+<div class="fname">
+    <label for="firstname">name</label>
+  <div> <input type="text" class="form" id="firstname" name="firstname"/>
+</div>
+</div>
+
+
+<div class="fname">
+    <label for="Address">Location</label>
+    <div>
+    <input type="textarea" class="form" id="Address" name="Address" />
+</div>
+    
+</div>  
+
+<div class="fname">
+    <label for="textarea">number</label>
+    <div>
+        <input type="comments" class="form" id="comments" name="comments"/>
+    </div>
+    
+    
+</div>
+<input type="submit" class="btn btn-big"/>
+</form>
+
+</div>
+</body>
+</html>
+</body>
+</html>
