@@ -360,6 +360,7 @@ figure{
 
     .first-p{
         font-size: 24px;
+        font-weight: 700;
         letter-spacing: -0.3px;
         
     
@@ -420,7 +421,7 @@ footer{
 
 .about{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 12px;
  }
  .ik{
